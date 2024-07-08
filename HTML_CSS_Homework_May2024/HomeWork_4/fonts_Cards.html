@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>fonts and cards</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Pixels&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <style>
+        .rubik-pixels-regular {
+            font-family: "Rubik Pixels", system-ui;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .sedgwick-ave-display-regular {
+            font-family: "Sedgwick Ave Display", cursive;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .dancing-script-font {
+            font-family: "Dancing Script", cursive;
+            font-optical-sizing: auto;
+            font-weight: 600;
+            font-style: normal;
+        }
+
+        .fjalla-one-regular {
+            font-family: "Fjalla One", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .indie-flower-regular {
+            font-family: "Indie Flower", cursive;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .main_Block {
+            height: 60vh;
+            display: flex;
+            /*flex-wrap: wrap;*/
+            box-sizing: border-box;
+            border: 1px solid lightgray;
+            /*align-items: center;*/
+            /*justify-content: center;*/
+            padding: 10px 20px 20px;
+            align-content: center;
+            background-color: #eddfaa;
+
+        }
+
+        .first_font_block {
+            height: 20vh;
+            width: 20vw;
+            border: 1px solid lightgray;
+            margin: 20px 20px 20px 20px;
+            display: flex;
+            box-sizing: border-box;
+            /*justify-items: center;*/
+            align-items: center;
+            justify-content: center;
+            /*transition: 3s;*/
+            /*transition-delay: 0.3s;*/
+            background-color: cadetblue;
+        }
+
+        .first_font_block p:hover {
+            /*-webkit-box-shadow: 24px 31px 31px 0 rgba(0,0,0,0.6);*/
+            /*-moz-box-shadow: 24px 31px 31px 0 rgba(0,0,0,0.6);*/
+            /*box-shadow: 24px 31px 31px 0 rgba(0,0,0,0.6);*/
+            /*text-shadow: 15px 16px 15px rgba(0,0,0,0.88);*/
+            /*transform: scale(1.8);*/
+            background-color: #a6d6d8;
+        }
+
+        .second_font_block {
+            height: 20vh;
+            width: 20vw;
+            border: 1px solid lightgray;
+            margin: 20px 20px 20px 20px;
+            display: flex;
+            box-sizing: border-box;
+            align-items: center;
+            justify-content: center;
+            background-color: salmon;
+            /*transition: 1.7s;*/
+            /*transition-delay: 0.3s;*/
+            text-transform: capitalize;
+        }
+
+        .second_font_block p:hover {
+            /*-webkit-box-shadow: 24px 31px 31px 0 rgba(0,0,0,0.6);*/
+            /*-moz-box-shadow: 24px 31px 31px 0 rgba(0,0,0,0.6);*/
+            /*box-shadow: 24px 31px 31px 0 rgba(0,0,0,0.6);*/
+            /*transform: scale(1.8);*/
+            background-color: #f3aea9;
+        }
+
+        .third_font_block {
+            height: 20vh;
+            width: 20vw;
+            border: 1px solid lightgray;
+            margin: 20px 20px 20px 20px;
+            display: flex;
+            box-sizing: border-box;
+            align-items: center;
+            justify-content: center;
+            background-color: darkgray;
+            text-transform: capitalize;
+            /*transition: 1.7s;*/
+            /*transition-delay: 0.3s;*/
+        }
+
+        .third_font_block p:hover {
+            background-color: lightgray;
+        }
+
+        /*.third_font_block:hover {*/
+        /*    -webkit-box-shadow: 24px 31px 31px 0 rgba(0, 0, 0, 0.6);*/
+        /*    -moz-box-shadow: 24px 31px 31px 0 rgba(0, 0, 0, 0.6);*/
+        /*    box-shadow: 24px 31px 31px 0 rgba(0, 0, 0, 0.6);*/
+        /*    transform: scale(1.8);*/
+        /*}*/
+        .forth_font_block {
+            height: 20vh;
+            width: 20vw;
+            border: 1px solid lightgray;
+            margin: 20px 20px 20px 20px;
+            display: flex;
+            box-sizing: border-box;
+            align-items: center;
+            justify-content: center;
+            background-color: darkkhaki;
+            text-transform: capitalize;
+            /*transition: 1.7s;*/
+            /*transition-delay: 0.3s;*/
+
+        }
+
+        .forth_font_block p:hover {
+            background-color: #e3dfb0;
+        }
+
+        .fifth_font_block {
+            height: 20vh;
+            width: 20vw;
+            border: 1px solid lightgray;
+            margin: 20px 20px 20px 20px;
+            display: flex;
+            box-sizing: border-box;
+            align-items: center;
+            justify-content: center;
+            background-color: goldenrod;
+            text-transform: capitalize;
+        }
+
+        .fifth_font_block p:hover {
+            background-color: #e4d099;
+        }
+
+        p:hover {
+            -webkit-box-shadow: 24px 31px 31px 0 rgba(0, 0, 0, 0.6);
+            -moz-box-shadow: 24px 31px 31px 0 rgba(0, 0, 0, 0.6);
+            box-shadow: 24px 31px 31px 0 rgba(0, 0, 0, 0.6);
+            transform: scale(1.8);
+            /*background-color: lightgray;*/
+        }
+    </style>
+</head>
+<body>
+<div class="main_Block">
+    <div class="first_font_block">
+        <p class="rubik-pixels-regular">Rubik Pixels</p>
+    </div>
+    <div class="second_font_block">
+        <p class="sedgwick-ave-display-regular">sedgwick-ave-display</p>
+    </div>
+    <div class="third_font_block">
+        <p class="dancing-script-font">dancing-script-font</p>
+    </div>
+    <div class="forth_font_block">
+        <p class="fjalla-one-regular">fjalla-one-regular</p>
+    </div>
+    <div class="fifth_font_block">
+        <p class="indie-flower-regular">indie-flower-regular</p>
+    </div>
+    <!--    <div class="test"></div>-->
+</div>
+</body>
+</html>
