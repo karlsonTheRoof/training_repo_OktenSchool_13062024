@@ -2,9 +2,132 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Widgets</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <style>
+        .quicksand_Widget {
+            font-family: "Quicksand", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 300;
+            font-style: normal;
+            font-size: 60px;
+        }
+
+        * {
+            scroll-behavior: smooth;
+        }
+
+        .mainWidget {
+            height: 200vh;
+            display: flex;
+            box-sizing: border-box;
+            border: 1px solid lightgray;
+            background-color: #fad145;
+            flex-direction: column;
+            padding: 10px 20px 15px;
+        }
+
+        .firstWidget {
+            height: 50vh;
+            display: flex;
+            box-sizing: border-box;
+            border: 1px solid lightgray;
+            background-color: #a6d6d8;
+            margin-bottom: 15px;
+            align-items: center;
+            justify-content: center;
+        }
+.firstWidget p:hover{
+    /*background-color: #d2edef;*/
+    background: transparent;
+}
+
+
+        .secondWidget {
+            height: 45vh;
+            display: flex;
+            box-sizing: border-box;
+            border: 1px solid lightgray;
+            background-color: salmon;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        .subWidget {
+            height: 38vh;
+            width: 27vw;
+            display: flex;
+            box-sizing: border-box;
+            border: 1px solid lightgray;
+            background-color: gray;
+            align-items: center;
+            justify-content: center;
+        }
+        .subWidget p:hover{
+            /*background-color: #e1d7d7;*/
+            background: transparent;
+        }
+
+
+        .finalWidget {
+            height: 93vh;
+            display: flex;
+            box-sizing: border-box;
+            border: 1px solid lightgray;
+            background-color: gray;
+            margin-top: 20px;
+            align-items: center;
+            justify-content: center;
+        }
+        .finalWidget p:hover{
+            /*background-color:#e1d7d7;*/
+            background: transparent;
+        }
+
+        .subWidget p{
+            font-size: 30px;
+        }
+
+        p {
+            color: whitesmoke;
+        }
+        p:hover {
+            -webkit-box-shadow: 24px 31px 31px 0 rgba(0, 0, 0, 0.6);
+            -moz-box-shadow: 24px 31px 31px 0 rgba(0, 0, 0, 0.6);
+            box-shadow: 24px 31px 31px 0 rgba(0, 0, 0, 0.6);
+            transform: scale(1.3);
+        }
+    </style>
 </head>
 <body>
-
+<div class="mainWidget">
+    <div class="firstWidget">
+        <p class="quicksand_Widget">Widgets</p>
+    </div>
+    <div class="secondWidget">
+        <div class="subWidget">
+            <p class="quicksand_Widget">
+                Big Widgets
+            </p>
+        </div>
+        <div class="subWidget">
+            <p class="quicksand_Widget">
+                Bigger Widgets
+            </p>
+        </div>
+        <div class="subWidget">
+            <p class="quicksand_Widget">
+                Huge Widgets
+            </p>
+        </div>
+    </div>
+    <div class="finalWidget">
+        <p class="quicksand_Widget">
+            Contact
+        </p>
+    </div>
+</div>
 </body>
 </html>
